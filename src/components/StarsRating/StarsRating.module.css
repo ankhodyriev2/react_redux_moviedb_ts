@@ -1,0 +1,10 @@
+.Rating div{
+    display: flex!important;
+    width: fit-content;
+    padding-right: 0!important;
+}
+
+.Rating svg {
+    width: 15px!important;
+    height: 15px!important;
+}

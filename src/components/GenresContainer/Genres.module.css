@@ -1,0 +1,26 @@
+.Genres {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    transition: 1s;
+    padding: 10px;
+    font-weight: 700;
+    background: green;
+}
+
+.Genres_hid {
+    left: -25vw;
+    transition: 1s;
+}
+
+.genre {
+    width: fit-content;
+    cursor: pointer;
+    font-size: 17px;
+    margin: 3px;
+}
+
+.genre:hover {
+    border-bottom: 1px solid;
+}

@@ -1,0 +1,78 @@
+.Poster {
+    height: 75vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    transition: 1s;
+    box-shadow: inset 0 -14rem 20rem black;
+}
+
+.Poster_light {
+    box-shadow: inset 0 -6rem 20rem white;
+}
+
+.short_description {
+    position: absolute;
+    width: 60%;
+    bottom: 20px;
+    left: 10%;
+}
+
+.movie_badge,
+.info_btn {
+    width: fit-content;
+    padding: 5px 15px;
+    border: 1px solid;
+    border-radius: 25px;
+    margin: 15px ;
+}
+
+.info_btn {
+    cursor: pointer;
+}
+
+/*.line_prev_next {*/
+/*    width: fit-content;*/
+/*    height: 30px;*/
+/*    display: flex;*/
+/*    column-gap: 10px;*/
+/*    position: absolute;*/
+/*    bottom: 50px;*/
+/*    right: 10px;*/
+/*}*/
+
+/*.line_btn,*/
+/*.line_btn~span {*/
+/*    width: 35px;*/
+/*    height: 3px;*/
+/*    border-radius: 5px;*/
+/*}*/
+
+/*.line_btn_light,*/
+/*.line_btn_light ~ span{*/
+/*    background: black;*/
+/*}*/
+
+/*.line_btn_dark,*/
+/*.line_btn_dark ~ span{*/
+/*    background: white;*/
+/*}*/
+
+.prev,
+.next {
+    position: absolute;
+    height: 50px;
+    top: calc(50% - 50px);
+    width: fit-content;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 20px;
+}
+
+.next {
+    right: 20px;
+}

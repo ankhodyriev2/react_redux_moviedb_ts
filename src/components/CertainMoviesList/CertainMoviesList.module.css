@@ -1,0 +1,40 @@
+.CertainMoviesList {
+    padding: 50px 20px;
+}
+
+.movies_bloc {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 0 0;
+}
+
+.movies_bloc > div {
+    width: 19%;
+}
+
+.more_movies {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.more_movies_btn {
+    width: 130px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 17px;
+    margin-right: 5%;
+    column-gap: 5%;
+    padding: 5px 15px;
+    border: 1px solid;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.more_movies_btn p,
+.more_movies_btn svg {
+    width: fit-content;
+    margin: 0;
+    padding: 0;
+}

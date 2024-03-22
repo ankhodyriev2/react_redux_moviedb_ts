@@ -1,0 +1,95 @@
+.Header {
+    height: 8vh;
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0 3px 8px 0 #0000005c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*     LEFT SIDE     */
+
+.nav_side {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    column-gap: 20px;
+}
+
+.nav_bar {
+    width: 25px;
+    height: 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav_bar_element,
+.nav_bar_element ~ span {
+    margin: 2px 0;
+    height: 4px;
+}
+
+.nav_bar_light,
+.nav_bar_light ~ span{
+    background: black;
+}
+
+.nav_bar_dark,
+.nav_bar_dark ~ span{
+    background: white;
+}
+
+.nav_movies {
+    width: fit-content;
+    cursor: pointer;
+
+}
+
+.nav_new {
+    width: fit-content;
+    cursor: pointer;
+
+}
+
+/*      CENTER      */
+
+.header {
+    width: 40%;
+    text-align: center;
+    cursor: pointer;
+}
+
+/*     RIGHT SIDE     */
+
+.right_side {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20px;
+    column-gap: 20px;
+}
+
+.right_side > div {
+    width: fit-content;
+}
+
+.light_dark_btn {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+
