@@ -4,7 +4,6 @@ import {Outlet} from "react-router-dom";
 import css from './MainLayout.module.css';
 import {Genres, Header} from "../components";
 import {useAppContext, useAppDispatch} from "../hooks";
-import {genreService} from "../services";
 import {genreActions} from "../redux";
 import {GenresContainer} from "../components/GenresContainer/GenresContainer";
 
